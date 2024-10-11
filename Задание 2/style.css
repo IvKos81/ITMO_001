@@ -1,0 +1,48 @@
+.personal__card {
+  display: block;
+  margin: 100px auto 0;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #323232;
+  border-radius: 16px;
+  box-shadow: 10px 10px 15px 5px #bcbcbc;
+  font-size: 16px;
+  background-color: #bebebe;
+}
+
+.card__title {
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.course__title {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.status {
+  text-align: center;
+  color: #2a2a2a;
+  font-style: italic;
+}
+
+.card__text {
+  font-size: 18px;
+  color: #323232;
+  letter-spacing: 0.02px;
+}
+
+.card__list {
+  list-style-type: disc;
+}
+
+.card__link {
+  color: #ff0000;
+}
+
+
+
