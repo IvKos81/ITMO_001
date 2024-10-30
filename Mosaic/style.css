@@ -1,0 +1,87 @@
+.primary__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 400px;
+    height: auto;
+    margin: 30px auto 0;
+}
+
+.secondary__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    flex-wrap: wrap;
+    width: 400px;
+    height: auto;
+    margin: 30px auto 0;
+}
+
+.pr__card {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.sc__card {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid lightgrey;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.red {
+    background-color: #ff0000;
+}
+.green {
+    background-color: #008000;
+}
+.blue {
+    background-color: #0000ff;
+}
+.violet {
+    background-color: #ee82ee;
+}
+.orange {
+    background-color: #ffa500;
+}
+.grey {
+    background-color: #808080;
+}
+.white {
+    background-color: #ffffff;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.choosen {
+    position: absolute;
+    top: 50px;
+    right: 25%;
+    border: 1px solid black;
+    padding: 15px;
+}
+.choosen h2 {
+    margin-top: 0;
+}
+
+.color__box {
+    margin: 0 auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+    box-sizing: border-box;
+}
