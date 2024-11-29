@@ -113,6 +113,13 @@ body {
   gap: 20px;
 }
 
+.cont9 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 /*карточки*/
 .card {
   display: flex;
@@ -128,6 +135,11 @@ body {
 .card p {
   margin-bottom: 10px;
   width: 100%;
+}
+
+.cont9 .card {
+  width: 300px;
+  padding: 60px 20px 50px;
 }
 
 /*картинки*/
@@ -161,6 +173,16 @@ h3 {
   font-weight: 500;
   line-height: 34px;
   text-align: center;
+  margin: 0 0;
+}
+
+h4 {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(54, 57, 64, 1);
   margin: 0 0;
 }
 
@@ -264,3 +286,35 @@ p {
   text-align: left;
 }
 
+
+.b__but {
+  width: 157px;
+  height: 46px;
+  border-radius: 4px;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.b__primary {
+  color: #fff;
+  border: 1px solid rgba(110, 56, 247, 1);
+  background: rgba(110, 56, 247, 1);
+}
+
+.b__violet {
+  color: rgba(110, 56, 247, 1);
+  border: 1px solid rgba(110, 56, 247, 1);
+  background: none;
+}
+
+.b__grey {
+  color: rgba(149, 161, 187, 1);
+  border: 1px solid rgba(149, 161, 187, 1);
+  background: none;
+
+}
