@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Канбан</title>
+</head>
+<body>
+    
+    <div class="canban-container">
+        <h1>Канбан-доска</h1>
+        <div class="col-create-task">
+            <label for="task-text">Текст задачи:<input type="text" id="task-text" name="'task-text" placeholder="Введите текст задачи"></label>
+            <input type="button" id="create-task-btn" value="Создать задачу">
+        </div>
+        <div class="canban-cols">
+            <div class="col-wrapper col-100"><h2>Созданные задачи</h2><div class="canban-col col-100 col-new-task" id="col-new-task"></div>
+            </div>
+            <div class="col-wrapper col-25"><h2>Не начаты</h2><div class="canban-col col-100 col-zero-task" id="col-zero-task"></div></div>
+            <div class="col-wrapper col-25"><h2>В процессе</h2><div class="canban-col col-100 col-inprocess-task" id="col-inprocess-task"></div></div>
+            <div class="col-wrapper col-25"><h2>Завершенные</h2><div class="canban-col col-100 col-finished-task" id="col-finished-task"></div></div>
+            <div class="col-wrapper col-25"><h2>Отложенные</h2><div class="canban-col col-100 col-cancelled-task" id="col-cancelled-task"></div></div>  
+        </div>
+        <div class="col-save-board">
+            <input type="button" id="save-board" value="Сохранить доску">
+            <input type="button" id="load-board" value="Загрузить доску">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
